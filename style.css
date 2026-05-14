@@ -8,7 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    background: linear-gradient(135deg, #438eff 0%, rgb(0, 219, 7) 100%);
+    background-image: linear-gradient(135deg, #438eff 0%, #00db07 100%);
 }
 
 .container {
