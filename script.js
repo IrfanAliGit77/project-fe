@@ -14,6 +14,7 @@ for (let i = 0; i < cookies.length; i += 1) {
         break
     }
 }
+
 function shuffle(array) {
     let currentIndex = array.length,  randomIndex;
   
@@ -71,16 +72,15 @@ class Question {
 let current_question
 let correct_answers_given
 let total_answers_given
+
 start_button.addEventListener('click', function() {
     container_main.style.display = 'flex'
     container_start.style.display = 'none'
     current_question = new Question()
     current_question.display()
 
-
     correct_answers_given = 0
     total_answers_given = 0
-
 
     setTimeout(function() {
         let new_cookie = `numbers_high_score=${total_answers_given}/${correct_answers_given}; max-age=10000000000`
